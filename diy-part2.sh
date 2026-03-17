@@ -40,7 +40,6 @@ sed -i "$ a\ \toption ipv6 '1'" feeds/packages/utils/ttyd/files/ttyd.config
 
 # 修改unblockneteasemusic
 rm -rf feeds/luci/applications/luci-app-unblockneteasemusic
-
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 sed -i 's/+node//g' package/luci-app-unblockneteasemusic/Makefile
 
